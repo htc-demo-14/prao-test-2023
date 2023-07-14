@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "prao-test-2023"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-14"
+    "humanitec.com/appId": "prao-test-2023"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
